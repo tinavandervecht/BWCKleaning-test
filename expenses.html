@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BWCKleaning - Expenses</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-between">
+            <h1 class="text-light">BWCKleaning</h1>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./clients.html">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./events.html">Event(s)</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./expenses.html">Expenses</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="text-light">Welcome, Linda</a>
+        </nav>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <h2>Expenses</h2>
+                </div>
+                <div class="col text-right">
+                    <a href="./new-expense.html" class="btn btn-primary">New Expense</a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Type</th>
+                            <th>Amount</th>
+                            <th scope="col">Notes</th>
+                            <th>File(s)</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th>Jun 15, 2024</th>
+                            <td>Gas</td>
+                            <td>$130</td>
+                            <td></td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-info p-0 pl-1 pr-1">receipt1.pdf</a>
+                                <br>
+                                <a href="#" class="btn btn-sm btn-info p-0 pl-1 pr-1">receipt2.pdf</a>
+                            </td>
+                            <td><a href="./new-expense.html">Edit</a></td>
+                          </tr>
+                          <tr>
+                            <th>Jun 14, 2024</th>
+                            <td>Cleaning Supplies</td>
+                            <td>$75</td>
+                            <td><small>Bought new Lysol Wipes</small></td>
+                            <td></td>
+                            <td><a href="./new-expense.html">Edit</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

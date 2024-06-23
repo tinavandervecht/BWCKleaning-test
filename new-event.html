@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BWCKleaning - New Event(s)</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-between">
+            <h1 class="text-light">BWCKleaning</h1>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./clients.html">Clients</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./events.html">Event(s)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./expenses.html">Expenses</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="text-light">Welcome, Linda</a>
+        </nav>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <h2>New Event(s)</h2>
+                </div>
+            </div>
+            <form>
+                <div class="row mt-3 mb-5 pb-5">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Date *</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Client *</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Tina</option>
+                                <option>Tym</option>
+                                <option>Randy</option>
+                              </select>
+                            <small id="emailHelp" class="form-text text-muted">Select the client and we'll pre-fill charged amount and Bonnie paid amount!</small>
+                        </div>
+
+                        <label for="basic-url">Charged Amount *</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon3">$</span>
+                            </div>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
+
+                        <label for="basic-url">Bonnie Paid</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon3">$</span>
+                            </div>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
+
+                        <div class="custom-control custom-switch mb-3">
+                            <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                            <label class="custom-control-label" for="customSwitch1">Client Paid</label>
+                        </div>
+
+                        <button type="button" class="btn btn-sm btn-outline-primary">Add Another Event for {DATE}</button>
+
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <button type="submit" class="btn btn-primary">Create Event(s)</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
